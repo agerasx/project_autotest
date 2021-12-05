@@ -1,0 +1,15 @@
+1638695078816	geckodriver	INFO	Listening on 127.0.0.1:52469
+1638695081876	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52470" "-no-remote" "-profile" "C:\\Users\\agera\\AppData\\Local\\Temp\\rust_mozprofileex1FuX"
+1638695082153	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\agera\\AppData\\Local\\Temp\\rust_mozprofileex1FuX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52470/devtools/browser/c7bbf3f9-0945-453b-b0f5-5d4812857893
+1638695083952	Marionette	INFO	Listening on port 52475
+1638695084044	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/, line 758: ReferenceError: oscar is not defined
+JavaScript error: http://selenium1py.pythonanywhere.com/en-gb/accounts/login/, line 624: ReferenceError: oscar is not defined
+1638695086097	Marionette	INFO	Stopped listening on port 52475
+console.error: services.settings: 
+  main/query-stripping Signature failed  TypeError: NetworkError: Network request failed
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
